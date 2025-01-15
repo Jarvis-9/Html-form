@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarvis Login Page</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="login-page">
+        <div class="img-back">
+            <img src="./img/pic-1.jpg" alt="Backgroung-Image" class="back-img">
+            <div class="over-img">
+                <img src="./img/pic-2.png" alt="Overlapping-Image" class="overlap-img">
+                <p>ODIN</p>
+            </div>
+        </div>
+        <div class="info-page">
+            <div id="info">
+                <p id="main-info">
+                    This is not a real online service! You know you need
+                    something like this in your life to help you realize your
+                    deepest dreams.<br>
+                    Sign up now to get started.
+                </p>
+                <p>
+                    You know you want to.
+                </p>
+
+            </div>
+            <div id="login">
+                <h2 >Let's Do This!</h2>
+                <form action="#" method="post" id="login-form">
+                    <div class="Name">
+                        
+                        <div class="details">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name" minlength="8" required>
+                        </div>
+
+                        <div class="details">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="last-name" id="last-name" minlength="1" required>
+                        </div>
+                    </div>
+
+                    <div class="contact">
+                        <div class="details">
+                            <label for="e-mail">EMAIL</label>
+                            <input type="email" name="e-mail" id="e-mail" required>
+                        </div>
+
+                        <div class="details">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                        </div>
+                    </div>
+
+                    <div class="password-info">
+                        <div class="details">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" minlength="8" required>
+                        </div>
+
+                        <div class="details">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm-password" id="confirm-password" minlength="8" required>
+                        </div>
+                    </div>
+
+                    <div class="submit-form">
+                        <input type="submit" value="Create Account">
+                    </div>
+
+                </form>
+
+            </div>
+            <div id="account">
+                <!-- <button type="submit"  id="create">Create Account</button> -->
+                <p>
+                    Already have an Account?<a href="#" style="font-style: green;">Log In</a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
